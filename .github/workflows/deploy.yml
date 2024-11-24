@@ -45,6 +45,6 @@ jobs:
         application_name: cicd
         environment_name: cicd-env-1
         version_label: ${{ github.sha }}
-        region: us-west-2
+        region: us-east-1
         deployment_package: deploy.zip
         wait_for_deployment: true
